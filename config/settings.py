@@ -32,8 +32,9 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587  
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False  
-EMAIL_HOST_USER = 'mariafeernanda.murillo@gmail.com'  
-EMAIL_HOST_PASSWORD = 'atdc wusr dxhz qlrj'
+EMAIL_HOST_USER = ''  #Your email
+EMAIL_HOST_PASSWORD = '' #Your password. Remember: You need to create one in: myaccount.google.com 
+#Under:app passwords
 
 # Application definition
 
