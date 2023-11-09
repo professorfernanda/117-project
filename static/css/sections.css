@@ -147,3 +147,17 @@ a p:nth-child(4),
     margin-top: 2rem;
 }
 
+.manage-section {
+    flex-direction: column;
+}
+
+#project-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    height: 35rem;
+    justify-content: space-evenly;
+    width: 35rem;
+    padding: 3%;
+    border: 1px solid var(--secondary-color);
+}
