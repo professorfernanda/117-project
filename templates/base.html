@@ -39,7 +39,7 @@
             <div class="nav-link center">
                 <a href="{% url 'home' %}">About me</a>
                 <a href="{% url 'projects_list' %}">Projects</a>
-                <a href="#section-3">Experience</a>
+                <a href="{% url 'experience_list' %}">Experience</a>
                 <a href="{% url 'contact' %}">Contact</a>
             </div>
         </nav>
@@ -54,10 +54,10 @@
         </a>
 
         <nav class="nav-footer center">
-            <a href="#section-1">About me</a>
-            <a href="#section-2">Projects</a>
-            <a href="#section-3">Experience</a>
-            <a href="#section-4">Contact</a>
+            <a href="{% url 'home' %}">About me</a>
+            <a href="{% url 'projects_list' %}">Projects</a>
+            <a href="{% url 'experience_list' %}">Experience</a>
+            <a href="{% url 'contact' %">Contact</a>
         </nav>
 
     </footer>
